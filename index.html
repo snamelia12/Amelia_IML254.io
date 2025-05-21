@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: url('images/BG.png') no-repeat center center fixed;
+      background-size: cover;
+      color: ;
+    }
+    header {
+      background-color: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5em;
+      color: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 50px;
+      padding: 50px;
+    }
+    .card {
+      background-color: #ffe4e1;
+      padding: 20px;
+      border-radius: 50px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      color: #333;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background: #ffc0cb;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: white;
+    }
+    footer {
+      background: #ffc0cb;
+      text-align: center;
+      padding: 0.3rem;
+      font-size: 0.9rem;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    Amelianaur's
+  </header>
+  <div class="container">
+    
+    <a class="card" href="about.html">About Me</a>
+    <a class="card" href="edu.html">Education</a>
+    <a class="card" href="hobby.html">My Hobby</a>
+    <a class="card" href="pet.html">Pet</a>
+    <a class="card" href="gallery.html">Gallery</a>
+    <a class="card" href="contact.html">Contact</a>
+  </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Amelianaur's. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
